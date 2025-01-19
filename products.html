@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products - Company Name</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav 
+        {
+            background-color: #333;
+            padding: 1rem;
+        }
+
+        nav a 
+        {
+            color: white;
+            text-decoration: none;
+            padding: 0.5rem 1rem;
+            margin-right: 1rem;
+        }
+
+        .container {
+            padding: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            margin-top: 40px;
+            color: #333;
+        }
+
+        .products-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+
+        .product-card {
+            border: 1px solid #ccc;
+            padding: 15px;
+            border-radius: 8px;
+            text-align: center;
+            width: 300px; /* Fixed width for uniformity */
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s ease;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between; /* Ensures content alignment */
+            height: 110px; /* Fixed height for uniformity */
+        }
+
+        .product-card:hover {
+            transform: translateY(-5px);
+        }
+
+        footer {
+            text-align: center;
+            padding: 15px;
+            background-color: #f8f8f8;
+            margin-top: 30px;
+            border-top: 1px solid #ddd;
+        }
+
+        .note {
+            margin-top: 40px;
+            font-style: italic;
+            color: #555;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <nav style="background-color: black; padding: 1rem;">
+        <a href="index.html" style="color: white; text-decoration: none; margin-right: 15px;">Home</a>
+        <a href="products.html" style="color: white; text-decoration: none; margin-right: 15px;">Products</a>
+        <a href="contact.html" style="color: white; text-decoration: none;">Contact</a>
+    </nav>
+
+
+    <div class="container">
+        <h1>Our Services</h1>
+
+        <!-- Category 1 -->
+        <h2>Patent</h2>
+        <div class="products-grid">
+            <!-- <a href="product1_1.html"> -->
+                <div class="product-card">
+                    <h3>Utility Patent</h3>
+                    <p>Protection for functional inventions.</p>
+                </div>
+            <!-- </a>
+            <a href="product1_2.html"> -->
+                <div class="product-card">
+                    <h3>Design Patent</h3>
+                    <p>Safeguard your product's unique design.</p>
+                </div>
+            <!-- </a>
+            <a href="product1_3.html"> -->
+                <div class="product-card">
+                    <h3>Copyright</h3>
+                    <p>Exclusive rights for original works.</p>
+                </div>
+            <!-- </a> -->
+        </div>
+
+        <!-- Category 2 -->
+        <h2>Research Article</h2>
+        <div class="products-grid">
+            <!-- <a href="product2_1.html"> -->
+                <div class="product-card">
+                    <h3>Conference Paper</h3>
+                    <p>Prepare impactful research presentations.</p>
+                </div>
+            <!-- </a>
+            <a href="product2_2.html"> -->
+                <div class="product-card">
+                    <h3>Journal Paper</h3>
+                    <p>Submit high-quality journal articles.</p>
+                </div>
+            <!-- </a>
+            <a href="product2_3.html"> -->
+                <div class="product-card">
+                    <h3>Book Chapter</h3>
+                    <p>Contribute to academic and research books.</p>
+                </div>
+            <!-- </a> -->
+        </div>
+
+        <!-- Category 3 -->
+        <h2>Research Assistance</h2>
+        <div class="products-grid">
+            <!-- <a href="product3_1.html"> -->
+                <div class="product-card">
+                    <h3>Thesis</h3>
+                    <p>Comprehensive support for your thesis.</p>
+                </div>
+            <!-- </a>
+            <a href="product3_2.html"> -->
+                <div class="product-card">
+                    <h3>Synopsis</h3>
+                    <p>Craft precise and detailed synopses.</p>
+                </div>
+            <!-- </a>
+            <a href="product3_3.html"> -->
+                <div class="product-card">
+                    <h3>Dissertation</h3>
+                    <p>Guidance on writing and refining dissertations.</p>
+                </div>
+            <!-- </a> -->
+        </div>
+
+        <!-- Category 4 -->
+        <h2>Other Services</h2>
+        <div class="products-grid">
+            <!-- <a href="product4_1.html"> -->
+                <div class="product-card">
+                    <h3>Plagiarism Report</h3>
+                    <p>Detailed plagiarism checks and reports.</p>
+                </div>
+            <!-- </a> -->
+            <!-- <a href="product4_2.html"> -->
+                <div class="product-card">
+                    <h3>Plagiarism Removal and Content Refinement</h3>
+                    <p>Ensure originality and polish your content.</p>
+                </div>
+            <!-- </a> -->
+            <!-- <a href="product4_3.html"> -->
+                <div class="product-card">
+                    <h3>Language and Grammar Improvements</h3>
+                    <p>Refine grammar and enhance readability.</p>
+                </div>
+            <!-- </a> -->
+            <!-- <a href="product4_4.html"> -->
+                <div class="product-card">
+                    <h3>Research Proposal Writing</h3>
+                    <p>Draft compelling and clear research proposals.</p>
+                </div>
+            <!-- </a> -->
+            <!-- <a href="product4_5.html"> -->
+                <div class="product-card">
+                    <h3>Professional PowerPoint Presentations</h3>
+                    <p>Create engaging and professional slides.</p>
+                </div>
+            <!-- </a> -->
+        </div>
+
+        <p class="note">Note: For customized services or additional queries, please contact us directly through the contact page.</p>
+    </div>
+
+    <footer style="background-color: black; color: white; padding: 15px; text-align: center;">
+        <p>&copy; 2025 Company Name. All rights reserved.</p>
+    </footer>
+    
+</body>
+</html>
